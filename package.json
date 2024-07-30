@@ -1,0 +1,20 @@
+{
+  "name": "language-en-md",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "debug": "bablr -l /Users/thomasallmer/html/bablr/language-en-md/markdown.js -p Root -v < /Users/thomasallmer/html/bablr/language-en-md/input.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@bablr/boot": "^0.3.0",
+    "@bablr/helpers": "^0.17.0",
+    "@bablr/language-en-blank-space": "^0.2.0",
+    "bablr": "^0.3.0"
+  }
+}
